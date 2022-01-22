@@ -1,0 +1,109 @@
+@import 'iransans';
+@import 'dr-icons';
+
+html {
+    overflow-y: auto !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.theme--light.v-application {
+    background-color: #FCFEFF !important;
+    color: var(--v-secondary-base) !important;
+}
+
+.theme--light.v-label {
+    color: var(--v-secondary-base) !important;
+}
+
+.container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.row {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+[class^='col'],
+[class*='col'] {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.v-icon:not(.dr-checkbox) {
+    color: inherit !important;
+}
+
+.v-btn {
+    padding: 0 16px !important;
+}
+
+.v-breadcrumbs {
+    padding: 0 !important;
+}
+
+input[type=text], input[type=tel] {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+img {
+    display: inline-block;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.v-chip.primary {
+    background-color: rgba($color: #0169d1, $alpha: 0.1) !important;
+    color: var(--v-primary-base) !important;
+}
+
+.v-chip--label {
+    border-radius: 6px !important;
+}
+
+.v-chip-group .v-chip {
+    margin: 4px 0 4px 8px !important;
+}
+
+.mw-100 {
+    max-width: 100%;
+}
+
+.disable-scroll {
+    overflow-y: hidden;
+}
+
+.v-dialog {
+    background-color: white;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.tooltip {
+    &__text {
+        position: relative;
+        font-size: 0.875rem;
+        line-height: 1.6;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -11px;
+            right: 85px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='12' viewBox='0 0 16 12'%3E%3Cpath id='Tooltip_polygon' data-name='Tooltip polygon' d='M7.168,1.248a1,1,0,0,1,1.664,0l6.131,9.2A1,1,0,0,1,14.131,12H1.869a1,1,0,0,1-.832-1.555Z' transform='translate(16 12) rotate(180)' fill='%23f6f6fa'/%3E%3C/svg%3E%0A");
+            background-size: 100%;
+            width: 16px;
+            height: 12px;
+        }
+    }
+}

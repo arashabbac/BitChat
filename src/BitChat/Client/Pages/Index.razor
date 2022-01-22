@@ -1,0 +1,139 @@
+﻿@page "/"
+
+<div class="container-fluid p-3">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="p-2 bg-light archive">
+                <div class="row mt-2 border-bottom">
+                    <div class="col-9">
+                        <input type="text" class="form-control border-0 pb-3" placeholder="جست و جو" />
+                    </div>
+                    <div class="col-3">
+                        آرشیو
+                    </div>
+                </div>
+                @for (var i = 0; i < 3; i++)
+                {
+                    <div class="row border-bottom bg-white archiveChat">
+                        <div class="col-12 pt-2">
+                            <p class="font-weight-bold">
+                                امیر علی ذهتابیان نجفی
+                                <span class="time">
+                                    09:10
+                                </span>
+                            </p>
+                            <p class="archiveChatMeg">
+                                احساس خستگی زیادی درطول روز می کنم ...
+                                <span class="unreadCount">
+                                    1
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row border-bottom bg-white archiveChat">
+                        <div class="col-12 pt-2">
+                            <p class="font-weight-bold">
+                                امیر علی ذهتابیان نجفی
+                                <span class="time">
+                                    09:10
+                                </span>
+                            </p>
+                            <p class="archiveChatMeg">
+                                احساس خستگی زیادی درطول روز می کنم ...
+                                <span class="unreadCount">
+                                    1
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="alert alert-dismissible fade show text-primary text-right" style="background-color:rgb(201 229 252 / 20%);padding-right:20px" role="alert">
+                شما درحال مکالمه تلفنی با بیمار هستید،می توانید برای او پیام فایل یا صدا ارسال کنید.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="card card-box border-0" style="border-radius:15px">
+                <div class="card-body chatBox">
+
+                    <div class="row justify-content-end m-3">
+                        <div>
+                            <div class="px-3 py-2 recieveBox">
+                                <span style="font-size:13px">
+                                    احساس خستگی زیادی در طول روز می کنم
+                                </span>
+                            </div>
+                            <small class="float-left pl-2" style="color:#aaabae">12:45</small>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-start m-3">
+                        <div>
+                            <div class="px-3 py-2 sendBox">
+                                <span style="font-size:13px">
+                                    براتون آمپول ویتامین دی مینویسم هرروز تزریق کنید
+                                </span>
+                            </div>
+                            <small class="pl-2" style="color:#aaabae">12:45</small>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-start m-3">
+                        <div>
+                            <div class="px-3 py-3 sendBox">
+
+                                <span style="font-size:13px;">
+                                    Document.pdf
+                                    <span class="bg-white text-dark" style="border-radius:50%;">
+                                        <svg width="25" height="25" viewBox="0 0 32 32" version="1.1">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                                                <g id="icon-94-folder" sketch:type="MSArtboardGroup" fill="#00427c">
+                                                    <path d="M17,9 L15,5 L4.00276013,5 C2.89666625,5 2,5.88967395 2,6.991155 L2,25.008845 C2,26.1085295 2.89971268,27 3.99328744,27 L29.0067126,27 C30.1075748,27 31,26.1073772 31,25.0049107 L31,10.9950893 C31,9.8932319 30.1029399,9 28.9941413,9 L17,9 L17,9 Z M16.3599854,10 L14.4000244,6 L3.99173483,6 C3.44401481,6 3,6.45530558 3,6.99180311 L3,25.0081969 C3,25.5559546 3.44610862,26 3.99296544,26 L29.0070346,26 C29.5554342,26 30,25.5553691 30,24.9991283 L30,11.0008717 C30,10.4481055 29.5461723,10 28.9970172,10 L16.3599854,10 L16.3599854,10 Z" id="folder" sketch:type="MSShapeGroup"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <small class="pl-2" style="color:#aaabae">12:45</small>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end m-3">
+                        <div>
+                            <div class="px-3 py-2 recieveBox">
+                                <img src="assets/image/doctor-doctor.png" class="img-fluid" height="250" width="250" />
+                            </div>
+                            <small class="float-left pl-2" style="color:#aaabae">12:45</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-footer bg-white border-top-0" style="border-radius:15px">
+                    <button class="btn float-right">
+                        ارسال فایل
+                    </button>
+                    <div class="input-group border-top">
+                        <textarea type="text" class="form-control border-0 sendMessageInput" placeholder="اینجا بنویسید ..."></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-white">
+                                ارسال
+                                <i class="dr dr-send" style="font-size:18px"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- @*Disable*@
+                    @*<input type="text" disabled class="form-control border-0 bg-light sendMessageInputDisable" placeholder="نوبت شما به اتمام رسیده است.امکان مکاتبه وجود ندارد">*@ -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

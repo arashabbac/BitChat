@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'dr-icons';
+    src: url('../../fonts/dr-icons/dr-icons.eot?9gn1na');
+    src: url('../../fonts/dr-icons/dr-icons.eot?9gn1na#iefix') format('embedded-opentype'),
+        url('../../fonts/dr-icons/dr-icons.ttf?9gn1na') format('truetype'), 
+        url('../../fonts/dr-icons/dr-icons.woff?9gn1na') format('woff'), 
+        url('../../fonts/dr-icons/dr-icons.svg?9gn1na#dr-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='dr-'],
+[class*=' dr-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dr-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dr-clock-3:before {
+    content: '\e928';
+}
+.dr-loading1:before {
+    content: '\e927';
+}
+.dr-gift:before {
+    content: '\e926';
+}
+.dr-phone-waiting:before {
+    content: '\e908';
+}
+.dr-phone:before {
+    content: '\e924';
+}
+.dr-logout:before {
+    content: '\e925';
+}
+.dr-info:before {
+    content: '\e923';
+}
+.dr-send:before {
+    content: '\e922';
+}
+.dr-filter:before {
+    content: '\e921';
+}
+.dr-doctor-2:before {
+    content: '\e920';
+}
+.dr-menu:before {
+    content: '\e91f';
+}
+.dr-checkbox:before {
+    content: '\e91d';
+}
+.dr-checkbox-checked:before {
+    content: '\e91e';
+}
+.dr-mobile:before {
+    content: '\e917';
+}
+.dr-user-heart:before {
+    content: '\e918';
+}
+.dr-list:before {
+    content: '\e919';
+}
+.dr-add-user:before {
+    content: '\e91a';
+}
+.dr-help:before {
+    content: '\e91b';
+}
+.dr-bubble:before {
+    content: '\e91c';
+}
+.dr-arrow-right:before {
+    content: '\e900';
+}
+.dr-arrow-left:before {
+    content: '\e901';
+}
+.dr-arrow-down:before {
+    content: '\e902';
+}
+.dr-closemark:before {
+    content: '\e903';
+}
+.dr-telegram:before {
+    content: '\e904';
+}
+.dr-instagram:before {
+    content: '\e905';
+}
+.dr-calendar-2:before {
+    content: '\e906';
+}
+.dr-calendar:before {
+    content: '\e907';
+}
+.dr-call:before {
+    content: '\e929';
+}
+.dr-checkmark:before {
+    content: '\e909';
+}
+.dr-clock:before {
+    content: '\e90a';
+}
+.dr-close:before {
+    content: '\e90b';
+}
+.dr-description:before {
+    content: '\e90c';
+}
+.dr-doctor:before {
+    content: '\e90d';
+}
+.dr-enter:before {
+    content: '\e90e';
+}
+.dr-linkedin:before {
+    content: '\e90f';
+}
+.dr-loading:before {
+    content: '\e910';
+}
+.dr-money:before {
+    content: '\e911';
+}
+.dr-payment:before {
+    content: '\e912';
+}
+.dr-sort:before {
+    content: '\e913';
+}
+.dr-user:before {
+    content: '\e914';
+}
+.dr-search:before {
+    content: '\e915';
+}
+.dr-profile:before {
+    content: '\e916';
+}

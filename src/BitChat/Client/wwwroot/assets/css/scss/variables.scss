@@ -1,0 +1,53 @@
+@import '~vuetify/src/styles/styles.sass';
+
+// Global
+$body-font-family: 'IRANSans';
+// $border-radius-root: 6px;
+$font-size-root: 16px;
+
+// Buttons
+$btn-font-size: 1rem;
+$btn-font-weight: 500;
+$btn-letter-spacing: 0;
+$btn-border-radius: 8px;
+$btn-sizes: (
+    'default': 40,
+    'x-large': 48,
+);
+
+// Breadcrumbs
+$breadcrumbs-item-font-size: 0.75rem;
+$breadcrumbs-even-child-padding: 10px;
+
+// Checkboxes
+$checkbox-disabled-opacity: 0.2;
+
+// Radios
+$tabs-item-letter-spacing: 0;
+$tabs-item-min-width: 64px;
+
+// Loaders
+$skeleton-loader-button-width: 122px;
+$skeleton-loader-avatar-width: 116px;
+$skeleton-loader-avatar-height: 116px;
+$skeleton-loader-button-height: 40px;
+$skeleton-loader-button-border-radius: 8px;
+$skeleton-loader-article-heading-margin-x: 0;
+
+// Dialog
+$dialog-border-radius: 16px;
+
+// SnackBar
+$snackbar-border-radius: 8px;
+
+// Badge
+$badge-dot-width: 8px;
+$badge-dot-height: 8px;
+$badge-dot-border-radius: 4px;
+$badge-dot-border-width: 1px;
+
+// Tooltip
+$tooltip-background-color: #f6f6fa;
+$tooltip-text-color: #353760;
+$tooltip-border-radius: 8px;
+$tooltip-padding: 16px;
