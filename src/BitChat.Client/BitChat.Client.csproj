@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\BitChat.Shared.csproj" />
+    <ProjectReference Include="..\BitChat.Shared\BitChat.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

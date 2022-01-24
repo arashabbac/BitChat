@@ -11,12 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\BitChat.Client.csproj" />
-    <ProjectReference Include="..\Shared\BitChat.Shared.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\BitChat.Client\BitChat.Client.csproj" />
   </ItemGroup>
 
 
