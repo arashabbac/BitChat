@@ -1,12 +1,21 @@
-using Microsoft.AspNetCore.ResponseCompression;
+using BitChat.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+#region ConfigureServices
 // Add services to the container.
 
-builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 
+builder.Services.AddDbContext<DatabaseContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
+    options.UseNpgsql(connectionString);
+}, ServiceLifetime.Scoped);
+#endregion
+
+#region Configure
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,8 +38,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 
-app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
 
 app.Run();
+#endregion

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitChat.Server", "src\BitCh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitChat.Shared", "src\BitChat.Shared\BitChat.Shared.csproj", "{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitChat.Infrastructure", "src\BitChat.Infrastructure\BitChat.Infrastructure.csproj", "{B726D77C-B3A3-4F22-92D8-1B72ACB786B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B726D77C-B3A3-4F22-92D8-1B72ACB786B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B726D77C-B3A3-4F22-92D8-1B72ACB786B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B726D77C-B3A3-4F22-92D8-1B72ACB786B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B726D77C-B3A3-4F22-92D8-1B72ACB786B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{F70082F2-FE83-44F3-839A-9CD3AD8EA792} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
 		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
 		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
+		{B726D77C-B3A3-4F22-92D8-1B72ACB786B4} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70B757DA-5A9F-4AE9-8BCD-7ABBDEBC98C5}
