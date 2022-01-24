@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57FF53C8-0E65-497D-BB66-B40681E7B33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitChat.Server", "src\BitChat\Server\BitChat.Server.csproj", "{4E222F18-0FF1-428E-904D-A0F642395AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitChat.Client", "src\BitChat.Client\BitChat.Client.csproj", "{F70082F2-FE83-44F3-839A-9CD3AD8EA792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitChat.Client", "src\BitChat\Client\BitChat.Client.csproj", "{0AF1328A-4087-433A-873C-BF6DCB6F56D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitChat.Server", "src\BitChat.Server\BitChat.Server.csproj", "{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitChat.Shared", "src\BitChat\Shared\BitChat.Shared.csproj", "{DD59BB26-D9E2-40D6-97FE-B522A49A3B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitChat.Shared", "src\BitChat.Shared\BitChat.Shared.csproj", "{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E222F18-0FF1-428E-904D-A0F642395AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E222F18-0FF1-428E-904D-A0F642395AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E222F18-0FF1-428E-904D-A0F642395AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E222F18-0FF1-428E-904D-A0F642395AC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AF1328A-4087-433A-873C-BF6DCB6F56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AF1328A-4087-433A-873C-BF6DCB6F56D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AF1328A-4087-433A-873C-BF6DCB6F56D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AF1328A-4087-433A-873C-BF6DCB6F56D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD59BB26-D9E2-40D6-97FE-B522A49A3B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD59BB26-D9E2-40D6-97FE-B522A49A3B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD59BB26-D9E2-40D6-97FE-B522A49A3B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD59BB26-D9E2-40D6-97FE-B522A49A3B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70082F2-FE83-44F3-839A-9CD3AD8EA792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70082F2-FE83-44F3-839A-9CD3AD8EA792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70082F2-FE83-44F3-839A-9CD3AD8EA792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70082F2-FE83-44F3-839A-9CD3AD8EA792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4E222F18-0FF1-428E-904D-A0F642395AC5} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
-		{0AF1328A-4087-433A-873C-BF6DCB6F56D8} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
-		{DD59BB26-D9E2-40D6-97FE-B522A49A3B68} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
+		{F70082F2-FE83-44F3-839A-9CD3AD8EA792} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
+		{8BB42877-FE92-40F4-8CC2-EEA3E0D3CB14} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
+		{F4607C44-F5A1-45C0-8A49-2FA0F4595E42} = {57FF53C8-0E65-497D-BB66-B40681E7B33E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70B757DA-5A9F-4AE9-8BCD-7ABBDEBC98C5}
